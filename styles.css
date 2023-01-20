@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10em;
+    flex-direction: column;
+    background: linear-gradient(220deg, #333, silver 1000px, #333);
+    margin: 3em 3em 0 3em;
+}
+.suii{
+    height: 200vh;
+    width: 100%;
+    text-align: center;
+}
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+.topHead {
+    background-color: #008184;
+}
+
+.topHead .ar1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+a.chng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5em;
+    width: 3.5em;
+    border-left: solid 1px silver;
+    border-right: solid 1px silver;
+}
+a.chng:hover{
+    -webkit-animation: cCH .2s ease-in forwards;
+}
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+.topHead .ar1 .flx {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.plz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.topHead section .ar1 .THLYN {
+    padding: 0 .5em 0 .5em;
+    width: max-content;
+    border-right: solid 1px silver;
+    background-color: #008184;
+    color: white;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #000;
+    font-size: smaller;
+}
+
+div.THLYN:hover {
+    -webkit-animation: cCH .2s ease-in forwards;
+}
+
+.topHead section .ar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: solid 1px silver;
+    height: 3em;
+}
+
+.topHead section .ar2 .sps {
+    display: flex;
+    flex-direction: row;
+    width: 15em;
+    justify-content: space-around;
+    margin: 0 37% 0 37%;
+
+}
+
+.sBar {
+    border: none;
+    border-radius: 25px;
+    height: 2.5em;
+    width: 20em;
+    float: right;
+    text-align: left;
+    margin: 0 .5em 0 .5em;
+    background-color: #006D70;
+}
+::placeholder{ 
+    color: #ABCFD0;
+    padding-left: .5em;
+}
+  
+.sBarC{
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006D70;
+    border-radius: 25px;
+    margin-right: 1em;
+}
+input:focus{
+    outline: none;
+}
+i {
+    background: url('imgs/srch.png');
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    left: 1em;
+}
+
+.menu {
+    margin: 2px 0 0 2px;
+    display: grid;
+    grid-template-rows: 6px 6px 6px;
+    grid-template-columns: 6px 6px 6px;
+}
+
+.menu .spant1 {
+    background-color: white;
+    height: 2px;
+    width: 2px;
+}
+
+.topHead section .ar1 .rightTopNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav.rightTopNav {
+    float: right;
+}
+
+@-webkit-keyframes cCH {
+    from {
+        background-color: #008184;
+    }
+
+    to {
+        background-color: #002324;
+      }
+}
